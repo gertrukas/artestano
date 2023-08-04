@@ -4,13 +4,17 @@
 /* VARIABLES */
 :root {
     --c-dark: #212529;
-    --c-brand: #ff7d00fd;
-    --c-brand-light: #6970dd;
+    --c-brand: #4346a7;
+    --c-brand-light: #9094d5;
     --c-brand-rgb: 78, 87, 212;
     --c-body: #727272;
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
+}
+
+.-err{
+    border: 1px solid red;
 }
 
 /* RESET & HELPERS */
@@ -109,7 +113,7 @@ img {
 
 /* HERO */
 #hero {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/hero-1.jpg);
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/artestano.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -117,7 +121,7 @@ img {
 
 /* SECTION TITLE */
 .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .section-title .line {
